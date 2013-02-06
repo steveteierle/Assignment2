@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		52C39E3E16C1AD4100AAD469 /* Vegetables.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C39E3D16C1AD4100AAD469 /* Vegetables.m */; };
+		52C39E4616C1B38900AAD469 /* Onion.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C39E4516C1B38900AAD469 /* Onion.m */; };
+		52C39E4916C1B47900AAD469 /* Pumpkin.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C39E4816C1B47900AAD469 /* Pumpkin.m */; };
+		52C39E4C16C1B51500AAD469 /* Potato.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C39E4B16C1B51500AAD469 /* Potato.m */; };
 		555E431416B84E1D00696EF1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 555E431316B84E1D00696EF1 /* UIKit.framework */; };
 		555E431616B84E1D00696EF1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 555E431516B84E1D00696EF1 /* Foundation.framework */; };
 		555E431816B84E1D00696EF1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 555E431716B84E1D00696EF1 /* CoreGraphics.framework */; };
@@ -24,6 +28,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		52C39E3C16C1AD4100AAD469 /* Vegetables.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vegetables.h; sourceTree = "<group>"; };
+		52C39E3D16C1AD4100AAD469 /* Vegetables.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vegetables.m; sourceTree = "<group>"; };
+		52C39E4416C1B38900AAD469 /* Onion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Onion.h; path = ../Onion.h; sourceTree = "<group>"; };
+		52C39E4516C1B38900AAD469 /* Onion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Onion.m; path = ../Onion.m; sourceTree = "<group>"; };
+		52C39E4716C1B47900AAD469 /* Pumpkin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pumpkin.h; sourceTree = "<group>"; };
+		52C39E4816C1B47900AAD469 /* Pumpkin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pumpkin.m; sourceTree = "<group>"; };
+		52C39E4A16C1B51500AAD469 /* Potato.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Potato.h; sourceTree = "<group>"; };
+		52C39E4B16C1B51500AAD469 /* Potato.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Potato.m; sourceTree = "<group>"; };
 		555E431016B84E1D00696EF1 /* FruitCart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FruitCart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		555E431316B84E1D00696EF1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		555E431516B84E1D00696EF1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -62,6 +74,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		52C39E4316C1B36B00AAD469 /* Vegetables */ = {
+			isa = PBXGroup;
+			children = (
+				52C39E4416C1B38900AAD469 /* Onion.h */,
+				52C39E4516C1B38900AAD469 /* Onion.m */,
+				52C39E3C16C1AD4100AAD469 /* Vegetables.h */,
+				52C39E3D16C1AD4100AAD469 /* Vegetables.m */,
+				52C39E4716C1B47900AAD469 /* Pumpkin.h */,
+				52C39E4816C1B47900AAD469 /* Pumpkin.m */,
+				52C39E4A16C1B51500AAD469 /* Potato.h */,
+				52C39E4B16C1B51500AAD469 /* Potato.m */,
+			);
+			name = Vegetables;
+			sourceTree = "<group>";
+		};
 		555E430716B84E1D00696EF1 = {
 			isa = PBXGroup;
 			children = (
@@ -92,13 +119,14 @@
 		555E431916B84E1D00696EF1 /* FruitCart */ = {
 			isa = PBXGroup;
 			children = (
-				555E433F16B8530800696EF1 /* Fruits */,
 				555E432216B84E1E00696EF1 /* AppDelegate.h */,
 				555E432316B84E1E00696EF1 /* AppDelegate.m */,
+				555E433F16B8530800696EF1 /* Fruits */,
 				555E432B16B84E1E00696EF1 /* ViewController.h */,
 				555E432C16B84E1E00696EF1 /* ViewController.m */,
 				555E432E16B84E1E00696EF1 /* ViewController.xib */,
 				555E431A16B84E1D00696EF1 /* Supporting Files */,
+				52C39E4316C1B36B00AAD469 /* Vegetables */,
 			);
 			path = FruitCart;
 			sourceTree = "<group>";
@@ -202,6 +230,10 @@
 				555E433C16B852FF00696EF1 /* Fruit.m in Sources */,
 				555E433D16B852FF00696EF1 /* Apple.m in Sources */,
 				555E433E16B852FF00696EF1 /* GoldDelicious.m in Sources */,
+				52C39E3E16C1AD4100AAD469 /* Vegetables.m in Sources */,
+				52C39E4616C1B38900AAD469 /* Onion.m in Sources */,
+				52C39E4916C1B47900AAD469 /* Pumpkin.m in Sources */,
+				52C39E4C16C1B51500AAD469 /* Potato.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +321,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FruitCart/FruitCart-Prefix.pch";
 				INFOPLIST_FILE = "FruitCart/FruitCart-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -300,6 +333,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FruitCart/FruitCart-Prefix.pch";
 				INFOPLIST_FILE = "FruitCart/FruitCart-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -324,6 +358,7 @@
 				555E433516B84E1E00696EF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
